@@ -2,7 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/font/Inter/Inter-Medium.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: 'Inter-semibold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/font/Inter/Inter-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/font/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+}
+
+.inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.interbold{
+  font-family: 'Inter-semibold', sans-serif;
+}
+
+.bebas{
+  font-family: 'Bebas Neue', sans-serif;
+}
 .gradient {
     background: linear-gradient(to right, #FFFFFF1A, #FFFFFF1A);
   }
