@@ -13,8 +13,8 @@ import { Conter } from "../conter";
 export function Header() {
     return (
         <>
-            <div className='lg:flex flex-col hidden w-full absolute justify-center items-center h-auto py-[26px] top-0 '>
-                <GridContainer className="mb-[77.5px]">
+            <div className='lg:flex flex-col hidden w-full absolute  justify-center items-center h-auto py-[26px] top-0 '>
+                <GridContainer className="mb-[180.5px] ">
                     <header className="gradient w-full h-[79px] rounded-full flex px-[42px] justify-between items-center">
                         <Image
                             src={logo}

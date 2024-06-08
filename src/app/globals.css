@@ -37,3 +37,23 @@
 .gradient {
     background: linear-gradient(to right, #FFFFFF1A, #FFFFFF1A);
   }
+
+
+/* Animation */
+
+.best{
+  animation:  animImoge 1s step-end infinite;
+}
+
+
+@keyframes animImoge {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
