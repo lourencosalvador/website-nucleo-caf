@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
 import background from "@/../public/background.svg";
-import background_2 from "@/../public/Glass Pattern_1.svg_1.svg";
-
 import { Header } from "./components/header/header";
 import { About } from "./components/about";
 import { Pilares } from "./components/pilares";
 import { Power } from "./components/power";
+import { Soluction } from "./components/soluction";
+
 
 export default function Home() {
   return (
@@ -27,10 +27,8 @@ export default function Home() {
       <div className="w-full h-[60rem] bg-[#000000]">
         <Power />
       </div>
-      <div className="w-full relative  h-[155.625rem] bg-[#000000]">
-        <Image 
-        src={background_2} className="size-full -z-10" alt="..."
-        />
+      <div className="w-full relative  h-[155.625rem] bg-[#000000] ">
+        <Soluction />
       </div>
     </div>
   );
