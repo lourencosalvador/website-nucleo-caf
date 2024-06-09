@@ -37,6 +37,35 @@ export const dataNavBarSoluction: dataNavBar[] = [
   },
 ];
 
+
+export const dataNavBarTime: dataNavBar[] = [
+  {
+    id: 0.5,
+    name: "Dev Projectos",
+    total: 22,
+  },
+  {
+    id: 0.7,
+    name: "Coordenadores",
+    total: 6,
+  },
+  {
+    id: 0.9,
+    name: "Frontends",
+    total: 16,
+  },
+  {
+    id: 0.11,
+    name: "Mobile",
+    total: 12,
+  },
+  {
+    id: 0.13,
+    name: "Professores",
+    total: 4,
+  },
+];
+
 export const dataCartSoluction: dataCartSoluctionProps[] = [
   {
     title: "SDK Para envio de mensagem",

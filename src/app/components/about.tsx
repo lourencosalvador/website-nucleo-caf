@@ -24,13 +24,14 @@ export function About(){
           {...animeRigth}
           transition={{duration: 1}}
            className='flex flex-col gap-10 inter-regular w-[591px]'>
-           <p className=' text-[18px] text-[#AEABAB] font-normal leading-[39px]'>
-           <span className='text-[#FFFFFF]'>O Núcleo Tecnológico do CAF (também chamado de Núcleo de Jovens Inventores/</span>Inovadores do CAF) 
+           <p className='text-[18px] text-[#AEABAB] font-normal leading-[39px]'>
+           <span className='text-[#FFFFFF]'>O Núcleo Tecnológico do CAF (também chamado de Núcleo de Jovens Inventores/</span>
+           Inovadores do CAF) 
            é um grupo acadêmico e sem fins lucrativos, formado por estudantes, professores e coordenadores 
            afectos ao Colégio Árvore da Felicidade (CAF), e dirigido/supervisionado pela direcção do CAF.
            </p>
 
-           <p className=' text-[18px] text-[#AEABAB] font-normal leading-[39px]'>
+           <p className='text-[18px] text-[#AEABAB] font-normal leading-[39px]'>
            Os estudantes, professores e coordenadores têm a missão de identificar, projectar e 
            desenvolver projectos tecnológicos (produtos e serviços) que visam dar soluções aos diferentes 
             problemas locais

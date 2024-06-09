@@ -6,7 +6,7 @@ import { About } from "./components/about";
 import { Pilares } from "./components/pilares";
 import { Power } from "./components/power";
 import { Soluction } from "./components/soluction";
-
+import { Time } from "./components/time";
 
 export default function Home() {
   return (
@@ -27,8 +27,11 @@ export default function Home() {
       <div className="w-full h-[60rem] bg-[#000000]">
         <Power />
       </div>
-      <div className="w-full relative  h-[155.625rem] bg-[#000000] ">
+      <div className="w-full relative  h-[110.625rem] bg-[#000000] ">
         <Soluction />
+      </div>
+      <div className="w-full relative  h-[155.625rem] bg-[#000000] ">
+        <Time />
       </div>
     </div>
   );
