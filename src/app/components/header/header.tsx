@@ -5,7 +5,6 @@ import Image from "next/image";
 import { List } from "../generic-list/list";
 import { HeaderLinks } from "./types";
 import { HeaderLinksData } from "./utils/data";
-import { Button } from "../layout/button";
 import { Conter } from "../conter";
 
 
@@ -40,9 +39,9 @@ export function Header() {
                                     alt="arrow"
                                 />
                             </div>
-                            <Button title="Saiba mais" asChild={false}>
+                            <button className="w-[106px] h-[38px] rounded-full text-sm font-medium text-zinc-900 bg-[#00FF47]">
                                 <p className="inter text-sm font-medium text-zinc-900">Saiba mais</p>
-                            </Button>
+                            </button>
                         </div>
                     </header>
                 </GridContainer>

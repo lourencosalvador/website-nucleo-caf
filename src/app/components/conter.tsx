@@ -2,7 +2,6 @@ import Image from "next/image";
 import line from "@/../public/linename.svg";
 import lineCurva from "@/../public/arrowcurva.svg";
 import destaque from "@/../public/destaque.svg";
-import { Button } from "./layout/button";
 import img1 from "@/../public/Adao-Card.svg";
 import img2 from "@/../public/Silvio-Card.svg";
 import img3 from "@/../public/Lourenco-Card.svg";
@@ -40,11 +39,11 @@ export function Conter() {
 
           <div className=" absolute z-40 left-[4rem] bottom-0 flex h-auto w-auto gap-[32.72px]">
             <Image src={lineCurva} alt="rabisco" />
-            <Button asChild={false} className="w-[263px] h-[45px]">
+            <button  className= " rounded-full text-sm font-medium text-zinc-900 bg-[#00FF47] w-[263px] h-[45px]">
               <p className="inter text-[13px] font-semibold text-zinc-900">
                 Preparado para um tour pelo site?
               </p>
-            </Button>
+            </button>
           </div>
         </div>
 
