@@ -69,3 +69,25 @@
 .activo #total{
   margin-top: 5px;
 }
+
+
+/* Customizando a largura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+/* Customizando a parte de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #1C1C1C; /* Cor do fundo da barra de rolagem */
+}
+
+/* Customizando a cor da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #00FF47; /* Cor da barra de rolagem */
+  border-radius: 20px; /* Bordas arredondadas */
+}
+
+/* Customizando a barra de rolagem ao passar o mouse por cima */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor da barra de rolagem quando o mouse está sobre ela */
+}

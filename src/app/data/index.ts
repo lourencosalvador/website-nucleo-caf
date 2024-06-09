@@ -92,3 +92,39 @@ export const dataCartSoluction: dataCartSoluctionProps[] = [
     frame: ["Framework", "Python", "Query", "Sqlite"],
   }
 ];
+
+
+
+// Data in Cart teame 
+
+import adao from "@/../public/Adao-Card.svg"
+import israel from "@/../public/Israel-Card.svg"
+import profSilvio from "@/../public/Silvio-Card.svg"
+import profRabi from "@/../public/Jão Mendes.png"
+import paulo from "@/../public/Paulo Sanguli.svg"
+import lourenço from "@/../public/Lourenco-Card.svg"
+import elizeu from "@/../public/Elizeu Gaspar.svg"
+import profAG from "@/../public/Antonio gabriel.svg"
+import { StaticImageData } from "next/image";
+
+
+export type GalleryItem = StaticImageData | string;
+
+export const dataGalleryTeame: GalleryItem[] = [
+  adao,
+  israel,
+  profSilvio,
+  profRabi,
+  paulo,
+  lourenço,
+  elizeu,
+  profAG,
+  adao,
+  israel,
+  profSilvio,
+  profRabi,
+  paulo,
+  lourenço,
+  elizeu,
+  profAG
+];
