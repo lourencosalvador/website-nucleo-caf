@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import rabisco from "@/../public/rabisco.svg"
 import {motion} from "framer-motion"
-import { animeProps, animePropsRigth, animeRigth } from '../animation/animate'
+import { animeRigth } from '../animation/animate'
 
 export function About(){
     return(
